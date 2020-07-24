@@ -26,14 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+      .forEach generically runs a function on each item in the array, while .map runs a function on each array, transforming the element and automatically returning an array containing all the transformed elements
 
 2. Explain the difference between a callback and a higher order function.
+      A callback is just a function given as an argument to another function, and then called inside that function. A higher order function takes a function (or more) as arguments.
 
 3. What is closure?
+      A function defined inside another function
 
 4. Describe the four rules of the 'this' keyword.
+      1. If not used inside an object, it defaults to meaning the global object, or Window object.
+      2. If used inside an object, it implicitly points to that object.
+      3. In a constructor function, it can point to the object being created when the function is called using the "new' keyword.
+      4. 'this' can also be explicitly bound with things like .call() .bind() and I believe .apply()
 
 5. Why do we need super() in an extended class?
+      It applies the attributes defined in the parent class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -47,7 +55,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [x] Add your team lead as collaborator on Github
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
@@ -59,22 +67,22 @@ Your finished project must include all of the following requirements:
 #### Task A: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
+* [x] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
 
 #### Task B: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+* [x] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
